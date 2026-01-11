@@ -1,7 +1,7 @@
 l = [-2,-1,-3,4,-1,2,1,-5,4]
 
 def largest_sub_array(arr:list)->list:
-    """"""
+    """It check for the max sum of contiguous sub_array and return max_sum and largest_sub_array"""
     max_sum = arr[0]
     largest_array = arr[0]
     for i in range(1, len(arr)):
