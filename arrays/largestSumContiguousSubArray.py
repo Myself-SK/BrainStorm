@@ -1,6 +1,7 @@
 l = [-2,-1,-3,4,-1,2,1,-5,4]
 
-def largest_sub_array(arr):
+def largest_sub_array(arr:list)->list:
+    """"""
     max_sum = arr[0]
     largest_array = arr[0]
     for i in range(1, len(arr)):
